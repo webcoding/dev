@@ -1,0 +1,51 @@
+/* Create:2012-12-04 专题基础样式  */
+/* = Public Styles */
+body,div,dl,dt,dd,ol,ul,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,figure,menu{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/22px "\5b8b\4f53",Tahoma,Arial,Verdana,Geneva,sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+ol,ul{list-style:none}
+img{border:none;vertical-align:top}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+/* 清除浮动 */
+.clearfix:after,.wrap:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.clearfix,.wrap{*zoom:1}/* for IE6 IE7 */
+.wrap{ margin-left:auto; margin-right:auto; width:980px;}
+/* 底部样式 */
+.ztfooter{ text-align:center; padding-bottom:10px;width:980px; margin:0 auto; overflow:hidden}
+
+
+/* = ZT Custom Styles */
+a{color:#0077cc;}
+a:hover{ color:#cc0066;}
+body{ background:url(../images/body_bg_y.jpg) repeat-y center top;}
+.body_bg{background:url(../img/body_bg.png) no-repeat center 51px;}
+.banner{background:url(http://pic.lvmama.com/img/new_v/ui_scrollLoading/loadingGIF46px.gif) center center no-repeat; display:block; text-align:center;}
+.banner h1{text-indent:-9999px; position:absolute;top:0;}
+/* content */
+/* 导航条 */
+.nav{ background:url(../images/nav_all.gif) no-repeat; width:958px; margin:0 auto;}
+.nav li{float:left; display:inline;width:238px;height:41px; margin-left:2px;}
+.nav .first{ margin:0;}
+
+.nav a{text-indent:-9999px; display:block; height:100%;}
+.nav .nav1:hover{ background:url(../images/nav_1.gif) no-repeat}
+.nav .nav2:hover{ background:url(../images/nav_2.gif) no-repeat}
+.nav .nav3:hover{ background:url(../images/nav_3.gif) no-repeat}
+.nav .nav4:hover{ background:url(../images/nav_4.gif) no-repeat}
+/* 次banner */
+.sub_banner{ background:url(../images/jdt_1.jpg) no-repeat; width:958px; height:249px; margin:0 auto; position:relative; top:40px;}
+.sub_banner dl{ position:absolute; width:320px; right:4px; top:30px;color:#a4cd30; z-index:2;}
+.sub_banner dt{ font-size:20px; line-height:40px; border-bottom:#a4cd30 dashed 1px; width:280px;}
+.sub_banner dd{ padding:5px 0 0; line-height:20px;}
+.sub_banner p{ position:absolute; right:3px; top:10px; width:334px; height:224px; background:#000; filter:alpha(opacity=40); opacity:0.4; z-index:1;}
+
+.sub_banner dl a{ color:red;}
+.sub_banner .dl2{right:500px;}
+.sub_banner .dl2{ position:static}
+
+
+#test{}
+
+
